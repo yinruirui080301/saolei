@@ -33,6 +33,7 @@ public class HelpFrame extends JFrame {
         setVisible(true);
         setResizable(false); 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //以下是关闭按钮的事件处理
         close.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                setVisible(false);
