@@ -5,6 +5,7 @@ import java.sql.Date;
 import java.sql.Time;
 import java.util.List;
 import java.util.ArrayList;
+//≤Â»Î»’÷æ
 public class LogDao{
      public void saveLog(Log log){
          String name=log.getName();
