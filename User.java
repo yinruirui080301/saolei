@@ -6,6 +6,7 @@ public class User{
        this.name=name;
        this.password=password;
      }
+    //setter and getter methods
      public User(){ }
      public void setName(String name){
        this.name=name;
